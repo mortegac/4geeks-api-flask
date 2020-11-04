@@ -1,0 +1,15 @@
+
+
+GET http://0.0.0.0:5000/api/users
+
+
+GET http://0.0.0.0:5000/api/users/123
+
+
+POST http://0.0.0.0:5000/api/users
+
+
+PUT http://0.0.0.0:5000/api/users/124312
+
+
+DELETE  http://0.0.0.0:5000/api/users/124134
