@@ -66,6 +66,30 @@ flask run
 ```
 
 
+***
+## TIPS
+
+Configurar Reload en aplicaciones Flask
+
+
+- Agregar al codigo
+```
+app.run(debug=True)
+```
+
+- Agregar modo `DEBUG` a las variables de entorno
+```
+export FLASK_DEBUG=1
+```
+
+- Ejecutar el archivo indicando un puerto distinto
+
+```
+flask run --host=0.0.0.0 --port=80
+```
+***
+
+
 ## Plugins Visual Studio Code para consumir endPoint de la API
 
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)

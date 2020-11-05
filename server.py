@@ -1,12 +1,13 @@
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
+app.run(debug=True)
 
 # GET
 
 @app.route('/api/users', methods=['GET'])
 def get_users():
-    response = { 'method': 'GET' }
+    response = { 'method': 'GET', 'message':'todo ok' }
     return jsonify(response)
 
 @app.route('/api/users/<id>', methods=['GET'])
