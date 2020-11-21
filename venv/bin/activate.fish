@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mortega/_MORTEGA_/_CODE/4GeeksAcademy/EJERCICIOS-MANU/PRIMERA-API/venv"
+set -gx VIRTUAL_ENV "/Users/mortega/_MORTEGA_/_CODE/4GeeksAcademy/EJERCICIOS-MANU/4geeks-API-FLASK/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

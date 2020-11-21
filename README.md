@@ -24,6 +24,9 @@ En este ejercicio realizamos un ejemplo de una API en Flask que tenga los métod
 
 - [Flask](https://content.breatheco.de/es/lesson/building-apis-with-python-flask)
 
+- [QuickStart en Flask](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+
+- [Learning Python](https://www.w3schools.com/python/default.asp)
 
 <h2>Instalación:</h2>
 
@@ -56,7 +59,7 @@ pip install Flask
 5.- Crear la aplicación para que Flask la reconozca
 
 ```
-export FLASK_APP=server.py
+export FLASK_APP=index.py
 ```
 
 6.- Ejecutar la app 
@@ -95,3 +98,6 @@ flask run --host=0.0.0.0 --port=80
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 
+# Deployment
+
+[![Deploy to Vercel](https://camo.githubusercontent.com/f209ca5cc3af7dd930b6bfc55b3d7b6a5fde1aff/68747470733a2f2f76657263656c2e636f6d2f627574746f6e)](https://vercel.com/import/project?template=https://github.com/mortegac/4geeks-API-FLASK)
